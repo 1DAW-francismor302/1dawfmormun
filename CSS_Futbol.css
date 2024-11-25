@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#betis, #sevilla {
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+}
+
+#tablabetis {
+    background-color: green;
+    border: 3px solid black;
+}
+
+#tablasevilla {
+    background-color: red;
+    border: 3px solid black;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+img {
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+td {
+    padding: 20px;
+}
+
+a img {
+    border: none;
+}
