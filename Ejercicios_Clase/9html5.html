@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>9HTML5</title>
+    <style>
+        footer{
+            text-align: center;
+            background-color: rgb(113, 113, 253);
+            color: black;
+        }
+        header{
+            background-color:rgb(113, 113, 253);
+        }
+    </style>
+</head>
+<body style="background-color: chocolate;">
+    <header align="center"><h1><b>PRUEBA DE ETIQUETAS HTML5</b></h1></header>
+    <h2><b>Aquí voy a usar la etiqueta nav</b></h2>
+    <nav>
+        <a href="index.html">Aquí puedes regresar al índice de la página</a>
+        <h2><b>Ahora añado aquí directamente el índice para acceder desde aquí al resto de la página web con la etiqueta nav</b></h2>
+        <ol>
+            <li><a href="1tamaños.html">ir al archivo tamaños</a></li>
+            <li><a href="2listas.html">ir al archivo listas</a></li>
+            <li><a href="3enlaces.html">ir al archivo enlaces</a></li>
+            <li><a href="4imagenes.html">ir al archivo imágenes</a></li>
+            <li><a href="5secciones.html">ir al archivo secciones</a></li>
+            <li><a href="6tablas.html">ir al archivo tablas</a></li>
+            <li><a href="7videos.html">ir al archivo vídeos</a></li>
+            <li><a href="8formularios.html">ir al archivo formularios</a></li>
+            <li><a href="9html5.html">ir al archivo html5</a></li>
+        </ol>
+    </nav>
+    <br/>
+    <p><h2><b>Esta es la etiqueta audio</b></h2></p>
+    <center><audio controls>
+        <source src="audios/Himno del centenario del sevilla.mp3" type="audio/mp3">
+    </audio></center>
+    <br/>
+    <p><h2><b>Esta es la etiqueta canvas</b></h2></p>
+    <center><canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    </canvas></center>
+    <script>
+        var x= 
+        document.getElementById("myCanvas");
+        var elem=x.getContext("2d");
+        elem.beginPath();
+        elem.arc(150,150,75,0,22*Math.PI);
+        elem.stroke();
+    </script>
+    <br/>
+    <center><p>Ahora voy a usar la etiqueta mark.<mark>Sirve para resaltar una paerte de texto que yo quiera.</mark></p></center>
+    <br/>
+    <p><h2><b>Ahora voy a usar la etiqueta embed</b></h2></p>
+    <center><embed type="text/html" src="8formularios.html" width="500" height="200"></center>
+    <br/>
+    <footer>
+        <p>autor: Fco. Javier Moreno Muñoz</p>
+    </footer>
+</body>
+</html>
