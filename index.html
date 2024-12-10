@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>JaviM</title>
+    <style>
+        .titulo{
+            background: red;
+            border-radius: 20px;
+            box-shadow: 20px 20px 10px rgb(110, 2, 2);
+            text-align: center;
+            color: white;
+            padding: 2%;
+        }
+        .subtitulo{
+            text-align: center;
+            color: white;
+            padding: 2%;
+            background-image: linear-gradient(to right, yellow,orange,red);
+        }
+        .subtitulo:hover{
+            background: rgb(207, 136, 4);
+        }
+        .container {
+            display: flex;
+            justify-content: flex-end;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        .left {
+            background-color: blue;
+            width: 250px;
+            height: 75px;
+            border-radius: 15px;
+            margin-right: 20px;
+            padding: 10px;
+        }
+        .tabla{
+            border: 4px solid #000;
+            border-collapse: collapse;
+            background-color: #d3d3d3;
+            margin-bottom: 10px;
+        }
+        .indice {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+        .indice a {
+            text-decoration: none;
+            color: black;
+        }
+        #recre{
+            color: aqua;
+        }
+        #recre:hover {
+            color: rgb(31, 209, 253);
+            text-shadow: 2px 2px 2px #000000;
+            font-size: 17px;
+        }
+        #ejercicios_clase {
+            color:aqua;
+        }
+        #ejercicios_clase:hover {
+            font-size: 17px;
+            cursor: hand;
+            color: rgb(31, 209, 253);
+            text-shadow: 2px 2px 2px #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">TRABAJO FINAL</h1>
+    <p><br></p>
+    <h2><div class="subtitulo">HTML Y CSS</div></h2>
+    <p><br></p>
+    <center><a href="Ejercicios_Clase/imagenes/mifoto.JPG"><img src="Ejercicios_Clase/imagenes/mifoto.JPG" width="70" height="100"></a></center>
+    <div class="container">
+        <div class="left">
+            <ul class="indice">
+                <li><a href="Web_Libre/index.html" id="recre">Recreativo Alcosa</a></li>
+                <li><a href="Ejercicios_Clase/index.html" id="ejercicios_clase">Ejercicios de clase</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <table class="tabla">
+                <tr>
+                    <td>Nombre:</td>
+                    <td>Francisco Javier Moreno Muñoz</td>
+                </tr>
+                <tr>
+                    <td>Módulo:</td>
+                    <td>Lenguaje de Marcas y Sistemas de Getsión de la Información</td>
+                </tr>
+                <tr>
+                    <td>IES:</td>
+                    <td>I.E.S. Martínez Montañés</td>
+                </tr>
+                <tr>
+                    <td>Profesor:</td>
+                    <td>Gregorio Jiménez Martínez</td>
+                </tr>
+                <tr>
+                    <td>Curso:</td>
+                    <td>1º DAW</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
