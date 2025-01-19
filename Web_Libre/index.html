@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>RECREATIVO ALCOSA</title>
+    <style>
+        /* Estilo para centrar el título */
+        #titulo{
+            text-align: center;
+        }
+        /* Estilo para posicionar el contenedor al final de la página */
+        .container {
+            display: flex;
+            justify-content: flex-end;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        /* Estilo para la tabla */
+        .tabla{
+            border: 4px solid white;
+            border-collapse: collapse;
+            background-color: black;
+            margin-bottom: 10px;
+            color: white;
+        }
+        /* Estilo para el fondo del cuerpo */
+        body { 
+            background-image: url(imagenes/fondo.jpeg); 
+            background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */ 
+            background-repeat: no-repeat; /* Evita que la imagen se repita */ 
+            background-position: center; /* Centra la imagen en la pantalla */ 
+        }
+        /* Estilo para centrar el contenido dentro del contenedor */
+        .contenedor { 
+            margin: 0; 
+            padding: 0; 
+            height: 50%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+        } 
+        /* Estilo para el div dentro del contenedor */
+        .contenedor >div { 
+            background-image: linear-gradient(to right, white, pink); 
+            padding: 20px; 
+            text-align: center;
+            border-radius: 25px;
+        }
+    </style>
+    <link rel="stylesheet" href="CSS.css"> <!-- Enlace a una hoja de estilo externa -->
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <ul class="ver">
+        <li><a href="Prebenjamín.html">Prebenjamín</a></li>
+        <li><a href="Benjamín.html">Benjamín</a></li>
+        <li><a href="Alevines.html">Alevín</a></li>
+        <li><a href="Infantiles.html">Infantil</a></li>
+        <li><a href="Cadetes.html">Cadete</a></li>
+        <li><a href="Juveniles.html">Juvenil</a></li>
+        <li><a href="Inscripcion.html">Inscripción</a></li>
+    </ul>
+    <div class="contenedor">
+        <div>
+            <div id="titulo">
+                <h1><u>CD. RECREATIVO ALCOSA</u></h1> <!-- Título principal -->
+                <h2>¡Bienvenidos a la página web oficial del recreativo alcosa!</h2>
+            </div>
+            <center><img src="imagenes/escudo.jpg" height="250px" width="250px" alt="Escudo del club"></center> <!-- Imagen del escudo del club -->
+            <h2 id="titulo">¡Esperamos que te guste nuestro club!</h2>
+            <br><br>
+            <h4>A continuación te dejamos un vídeo con las normas básicas del deporte que practicamos:</h4>
+            <br><br>
+            <!-- Video de YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BXyu5Bpb-YM?si=ANz_dgTDuOz6McaB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="right">
+                <!-- Información de contacto y créditos -->
+                <table class="tabla">
+                    <tr>
+                        <td>Nombre:</td>
+                        <td>Francisco Javier Moreno Muñoz</td>
+                    </tr>
+                    <tr>
+                        <td>Módulo:</td>
+                        <td>Lenguaje de Marcas y Sistemas de Getsión de la Información</td>
+                    </tr>
+                    <tr>
+                        <td>IES:</td>
+                        <td>I.E.S. Martínez Montañés</td>
+                    </tr>
+                    <tr>
+                        <td>Profesor:</td>
+                        <td>Gregorio Jiménez Martínez</td>
+                    </tr>
+                    <tr>
+                        <td>Curso:</td>
+                        <td>1º DAW</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
